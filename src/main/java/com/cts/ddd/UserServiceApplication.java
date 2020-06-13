@@ -12,7 +12,6 @@ import com.cts.ddd.domain.user.FullName;
 import com.cts.ddd.domain.user.User;
 
 @SpringBootApplication
-//(exclude = {MongoAutoConfiguration.class, MongoDataAutoConfiguration.class})
 public class UserServiceApplication implements CommandLineRunner {
 
 	@Autowired
